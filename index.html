@@ -67,21 +67,21 @@
             <div  class="col s12 m4 l4  wow bounceInUp" data-wow-delay="0.3s">
                 <div class="center promo promo-example">
                     <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Speeds up development</h5>
+                    <h5 class="promo-caption">Fast development times</h5>
                     <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4 wow bounceInUp" data-wow-delay="0.6s" >
                 <div class="center promo promo-example">
                     <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">User Experience Focused</h5>
+                    <h5 class="promo-caption">Client communication Focused</h5>
                     <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="center promo promo-example wow bounceInUp" data-wow-delay="0.9s">
                     <i class="mdi-hardware-desktop-windows"></i>
-                    <h5 class="promo-caption">Fully responsive</h5>
+                    <h5 class="promo-caption">Active </h5>
                     <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                 </div>
             </div>
@@ -124,7 +124,7 @@
     text-shadow: 2px 2px 1px rgba(0, 2, 4, 0.85);
     top: 35%;
 "></span>
-    <div class="parallax"><img src="img/parallax3.png"></div>
+    <div class="parallax"><img src="img/parallax.jpg"></div>
 </div>
 
 <!--Team-->
@@ -135,7 +135,7 @@
             <div class="col s12 m6">
                 <div class="card card-avatar wow fadeIn" >
                     <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar1.png">
+                        <img class="activator circle responsive-img" src="img/avatar-jean.jpg">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Jean Vidonde <br/>
@@ -172,7 +172,8 @@
 <footer id="contact" class="page-footer default_color scrollspy">
     <div class="container wow fadeInDown">  
         <div class="row">
-            <div class="col l6 s12">
+            <div class="col l12 s12">
+                <h3 class="white-text">Contact us</h3>
                 <form class="col s12" action="contact.php" method="post">
                     <div class="row">
                         <div class="input-field col s6">
@@ -190,15 +191,13 @@
                             <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
                             <label for="icon_prefix2" class="white-text">Message</label>
                         </div>
-                        <div class="col offset-s7 s5">
-                            <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
-                                <i class="mdi-content-send right white-text"></i>
-                            </button>
-                        </div>
+                        <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
+                            <i class="mdi-content-send right white-text"></i>
+                        </button>
                     </div>
                 </form>
             </div>
-            <div class="col l3 s12">
+            <!--<div class="col l3 s12">
             <h5 class="white-text">links</h5>
                 <ul>
                     <li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>
@@ -224,7 +223,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </div>-->
         </div>
     </div>
     <div class="footer-copyright default_color">
@@ -248,9 +247,7 @@ $(document).ready(function() {
         $("body").css("overflow", "auto");
         $(".loader-logo").fadeOut();
 		$('body').addClass('loaded');
-  
 	}, 3000);
-	
 });
     
      new WOW({
